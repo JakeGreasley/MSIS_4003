@@ -1,5 +1,10 @@
 ﻿body {
 }
-MainContain{
-
+.MainContain {
+    background-image: url('Images/robert-ruggiero-U5HMj5J6Opg-unsplash.jpg');
+    background-size: cover;
+    height: 20rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
 }
