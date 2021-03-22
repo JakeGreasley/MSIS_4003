@@ -34,6 +34,55 @@
                      </li>
                      </ul>
                 </nav>
+             <div class="row">
+                <div class="col-sm-6">
+                    <%-- Logo --%>
+                     <img src="Images/Screenshot%202020-09-15%20161622.png" alt="Turf and soil Soultions Logo" class="img-fluid d-block mx-auto" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="row ">
+                        <div class="col-sm-12 para ">
+                            <%-- Main mission statement. same level as the logo --%>
+                            <h3>Our Misson</h3>
+                            <p>
+                                TSS is dedicated to providing science-based recommendations for soil and plant nutritional
+requirements as well as improved water performance. Our product options are provided to complete
+nutrient cycling by the integration of plant-derived fertilizers with no limiting factors as generally found in
+materials that may be salt or sulfur-based synthetics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row para">
+                        <div class="col-sm-12 para">
+
+                            <h3>Why we do what we do</h3>
+                            <p>
+                                With the access to clean viable water at an all time low, there is a need for water nuitrient solutions now more than ever. With our products, you can enhance your water nuitrients and give your plants
+                                what they so desperatley need. 
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-sm-12">
+                    <h3>The Science</h3>
+                    <p>
+                    With water quality rapidly diminishing choosing products with limited amounts of antagonistic properties
+                     will become of paramount importance.
+                    The proven FP2 or From Plants For Plants line lays the foundation to provide for the essential elements
+                    not readily supplied by mother nature. These products have been formulated to maximize customization
+                    and provide excellent results in alkaline conditions.
+                    The rest of the TSS line is targeted at reducing the demand for synthetic products that are often a
+                    double-edged sword. Many of the TSS products are one of a kind, new technology for the golf course
+                    superintendent.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
 
         </div>
     </form>
