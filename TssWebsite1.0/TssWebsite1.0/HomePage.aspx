@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
         <div class="container-fluid">
             <div class="jumbotron-fluid MainContain">
-
+                <h1>Turf And Soil Solutions</h1>
             </div>
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark mynavbar">
                  <ul class="navbar-nav">
@@ -43,7 +43,7 @@
                     <div class="row ">
                         <div class="col-sm-12 para ">
                             <%-- Main mission statement. same level as the logo --%>
-                            <h3>Our Misson</h3>
+                            <h3>Our Mission</h3>
                             <p>
                                 TSS is dedicated to providing science-based recommendations for soil and plant nutritional
 requirements as well as improved water performance. Our product options are provided to complete
@@ -53,12 +53,13 @@ materials that may be salt or sulfur-based synthetics.
                         </div>
                     </div>
                     <div class="row para">
-                        <div class="col-sm-12 para">
+                        <div class="col-sm-12 para1">
 
                             <h3>Why we do what we do</h3>
                             <p>
-                                With the access to clean viable water at an all time low, there is a need for water nuitrient solutions now more than ever. With our products, you can enhance your water nuitrients and give your plants
-                                what they so desperatley need. 
+                                With the access to clean viable water at an all-time low, there is a need for water nutrient solutions now more than ever. With our products, you can enhance your water nutrients and give your plants
+                                what they so desperately need.
+
                             </p>
                         </div>
                     </div>
@@ -66,7 +67,7 @@ materials that may be salt or sulfur-based synthetics.
                 </div>
             </div>
             <div class="row">
-                <div class=" col-sm-12">
+                <div class=" col-sm-12 para2">
                     <h3>The Science</h3>
                     <p>
                     With water quality rapidly diminishing choosing products with limited amounts of antagonistic properties
