@@ -25,9 +25,7 @@
                       <li class="nav-item">
                           <a class="nav-link" href="Products.aspx">Products</a>
                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="AboutUs.aspx">About Us</a>
-                     </li>
+                      
                       <li class="nav-item">
                           <a class="nav-link" href="OrderHere.aspx">Order Here</a>
                      </li>
@@ -37,7 +35,7 @@
         <div class="col-sm-4 cata" >
             <h2>All of our Products<br /> 
                 are plant 
-                derived</h2>
+                derived</h2> 
 
         </div>
             <div class="col-sm-5 cata">  

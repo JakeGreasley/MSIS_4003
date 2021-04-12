@@ -26,9 +26,7 @@
                       <li class="nav-item">
                           <a class="nav-link" href="Products.aspx">Products</a>
                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="AboutUs.aspx">About Us</a>
-                     </li>
+                      
                       <li class="nav-item">
                           <a class="nav-link" href="OrderHere.aspx">Order Here</a>
                      </li>
