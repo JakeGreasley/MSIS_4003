@@ -35,17 +35,30 @@
         <div class="col-sm-4 cata" >
             <h2>All of our Products<br /> 
                 are plant 
-                derived</h2> 
+                derived...</h2> <br />
+            <p> 22-0-0 ---> Methylenediurea and Urea</p> <br />
+            <p> 2-20-0 ---> Diammonium Phosphate and Phosphoric Acid</p> <br />
+            <p> Micro Elements --->Zinc Sulfate and Magnesium Sulfate</p> <br />
+            <p> 4% Mag ---> : Magnesium Sulfate</p> <br />
+            <p> 0-0-22 ---> Potassium Thiosulfate</p> <br />
+            <p> Pro N Silica  ---> Soy Protein IsolateSoy Protein Isolate</p> <br />
+            <p> Pro N 10 ---> 100% Vegtable sources as protein</p> <br />
+            <p> Pro K 20 ---> Fruit Rind Ash</p> <br />
+
 
         </div>
-            <div class="col-sm-5 cata">  
+            <div class="col-sm-8 cata">  
                 <iframe width="620px" height="565px" src="https://www.yumpu.com/en/embed/view/ouHK5fd8GnIWFzrm"  ></iframe>
             </div>
-        <div class="col-sm-4 cata" >
-            <h2>Product of the month:</h2>
+      
+    </div> 
+            <div class ="row">
+            <div class="col-sm-4 cata" >
+            <h2>Product of the month:  Micro Elements- The core needs that the grass needs in order to start growing!</h2>
 
         </div>
-    </div>
+            </div>
+            
             
         </div>
     </form>
