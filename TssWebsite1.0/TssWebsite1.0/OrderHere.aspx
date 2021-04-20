@@ -7,28 +7,33 @@
     <title>Email System</title>
     <script src="Scripts/jquery-3.5.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="MainCSS.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class ="container">
-                
-            <%--<nav class="navbar navbar-expand-xl bg-dark navbar-dark justify-content-center ">
-                 Navigation Bar 
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="Login.aspx">Login</a></li>
-                <li class="nav-item"><a class="nav-link" href="AccountCreation.aspx">Account Creation</a></li>
-                <li class="nav-item"><a class="nav-link" href="ContactUs.aspx">Contact Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="AboutUs.aspx">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="ProductPage.aspx">Shopping Cart</a></li>                                 
-                
-            </ul>
-            </nav>--%>
+        
+                    <div class ="container-fluid">
+                        <div class="jumbotron-fluid MainContain">
+                <h1>Contact Us!</h1>
+            </div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark mynavbar">
+                 <ul class="navbar-nav">
+                     <li class="nav-item">
+                          <a class="nav-link" href="HomePage.aspx">Home</a>
+                     </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="Products.aspx">Products</a>
+                     </li>
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" href="OrderHere.aspx">Order Here</a>
+                     </li>
+                     </ul>
+                </nav>
 
-        <h1 class ="text-center">Contact Us</h1>
 
             <div class ="row" style =" margin-top:.5rem;">
                 <div class ="col-sm-6 text-right">
@@ -64,13 +69,11 @@
             </div>
             <div class ="row" style =" margin-top:.5rem;">
                 <div class="col-sm-6 offset-sm-6" style =" margin-bottom:1rem;">
-                    
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"  />
+                        <asp:Button ID="btnContactSubmit" runat="server" Text="Submit" OnClick="btnContactSubmit_Click" />
                 </div>                
             </div>
+
         </div>
     </form>
 </body>
 </html>
-
-

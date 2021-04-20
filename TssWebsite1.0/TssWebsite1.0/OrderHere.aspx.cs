@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Net;
 using System.Net.Mail;
 
+
 namespace TssWebsite1._0
 {
     public partial class OrderHere : System.Web.UI.Page
@@ -14,10 +15,8 @@ namespace TssWebsite1._0
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
         }
-
-        public void btnSubmit_Click(object sender, EventArgs e)
+        protected void btnContactSubmit_Click(object sender, EventArgs e)
         {
             string emailFirst = tboxFirstName.Text;
             string emailMessage = tboxComment.Text;
@@ -46,6 +45,8 @@ namespace TssWebsite1._0
             tboxLastName.Text = "";
             tboxEmail.Text = "";
             tboxComment.Text = "";
+
         }
+
     }
 }
