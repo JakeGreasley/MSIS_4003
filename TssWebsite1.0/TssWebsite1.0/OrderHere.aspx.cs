@@ -31,7 +31,7 @@ namespace TssWebsite1._0
             smtp.Port = 587;
             smtp.EnableSsl = true;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtp.Credentials = new NetworkCredential("troyolive197@gmail.com", "TroyO051400");
+            smtp.Credentials = new NetworkCredential("troyolive197@gmail.com", "");
 
             MailMessage message = new MailMessage(fromAddress, toAddress);
 
