@@ -16,9 +16,22 @@
     <form id="form1" runat="server">
         
                     <div class ="container-fluid">
-                        <div class="jumbotron-fluid MainContain">
-                <h1>Contact Us!</h1>
+                            <div class="jumbotron">
+                <div class="row">
+                     <div class="col-sm-12 text-center">
+                         <p>   Customer ID:   
+                         <asp:TextBox ID="tboxLogin" class="" runat="server"></asp:TextBox> 
+                         </p>
+                          <div> <asp:Label ID="lblemailID" runat="server" Text="" ForeColor="White"></asp:Label> </div>
+                <asp:RequiredFieldValidator ID="rfvuseremail" runat="server" 
+                    ErrorMessage="Please enter your ID" ForeColor="White" 
+                    ControlToValidate="tboxLogin" CausesValidation="True" Display="Dynamic"></asp:RequiredFieldValidator> 
+                          <p><asp:Button ID="logbtn" runat="server" Text="Login" OnClick="logbtn_Click" /> </p>
+                <asp:Label ID="lblSuccessMessage" runat="server" Text=""></asp:Label>
+                    </div>
+                </div>
             </div>
+
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark mynavbar">
                  <ul class="navbar-nav">
                      <li class="nav-item">

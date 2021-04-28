@@ -31,7 +31,7 @@ namespace TssWebsite1._0
             smtp.Port = 587;
             smtp.EnableSsl = true;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtp.Credentials = new NetworkCredential("troyolive197@gmail.com", "");
+            smtp.Credentials = new NetworkCredential("troyolive197@gmail.com", "TroyO051400");
 
             MailMessage message = new MailMessage(fromAddress, toAddress);
 
@@ -47,6 +47,22 @@ namespace TssWebsite1._0
             tboxComment.Text = "";
 
         }
+        protected void logbtn_Click(object sender, EventArgs e)
+        {
+
+            if (tboxLogin.Text == "Johnson1" || tboxLogin.Text == "Trotter2" || tboxLogin.Text == "Fisher0")
+            {
+
+                lblSuccessMessage.Text = "Successful Login";
+
+            }
+            else
+            {
+                lblSuccessMessage.Text = "invalid ID";
+            }
+
+        }
+
 
     }
 }
