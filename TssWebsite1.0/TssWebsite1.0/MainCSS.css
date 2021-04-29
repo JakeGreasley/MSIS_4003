@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
 }
 .MainContain {
     background-image: url('Images/robert-ruggiero-U5HMj5J6Opg-unsplash.jpg');
@@ -8,6 +10,58 @@
     color: white;
     font-family: 'Lobster', cursive;
 }
-.para{
-    margin-top:2rem;
+h1{
+font-size:64px;
+padding: 1rem;
 }
+
+.para {
+    /*//our mission paragaph;*/
+    margin-top: 2rem;
+}
+.para1 {
+    margin-top: 1.5rem;
+}
+.para2 {
+    margin-bottom: 1.5rem;
+}
+h3{
+    
+    color: green;
+
+}
+.cata{
+   text-align:center;
+   margin-top: 3rem;
+   
+}
+
+/*body {
+    border: 3px solid black;
+    background-color: forestgreen;
+    color: white;
+}*/
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron {
+    font-size: 150%;
+    background-color: darkorange;
+    padding: 2rem;
+}
+
+.subhead {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pic {
+    float: right;
+}
+
+.productimage {
+    height: .3rem;
+}
+

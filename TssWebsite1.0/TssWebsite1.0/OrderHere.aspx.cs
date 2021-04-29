@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
+using System.Net.Mail;
+
 
 namespace TssWebsite1._0
 {
@@ -13,5 +16,53 @@ namespace TssWebsite1._0
         {
 
         }
+        protected void btnContactSubmit_Click(object sender, EventArgs e)
+        {
+            string emailFirst = tboxFirstName.Text;
+            string emailMessage = tboxComment.Text;
+            string emailSender = tboxEmail.Text;
+            string toEmail = "troyolive197@gmail.com";
+
+            MailAddress fromAddress = new MailAddress("troyolive197@gmail.com");
+            MailAddress toAddress = new MailAddress(toEmail);
+
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.EnableSsl = true;
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.Credentials = new NetworkCredential("troyolive197@gmail.com", "TroyO051400");
+
+            MailMessage message = new MailMessage(fromAddress, toAddress);
+
+            message.Subject = "Turf And Soil Solutions";
+
+            message.Body = tboxComment.Text;
+
+            smtp.Send(message);
+
+            tboxFirstName.Text = "";
+            tboxLastName.Text = "";
+            tboxEmail.Text = "";
+            tboxComment.Text = "";
+
+        }
+        protected void logbtn_Click(object sender, EventArgs e)
+        {
+
+            if (tboxLogin.Text == "Johnson1" || tboxLogin.Text == "Trotter2" || tboxLogin.Text == "Fisher0")
+            {
+
+                lblSuccessMessage.Text = "Successful Login";
+
+            }
+            else
+            {
+                lblSuccessMessage.Text = "invalid ID";
+            }
+
+        }
+
+
     }
 }
